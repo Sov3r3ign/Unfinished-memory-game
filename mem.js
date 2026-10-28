@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll(".memory-card");
 
-function flipCard(e) {
-    console.log(e.target);
+function flipCard() {
+this.classList.add("flip");
 }
 
 cards.forEach(card =>{
